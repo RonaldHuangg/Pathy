@@ -14,11 +14,15 @@ struct ContentView: View {
     var body: some View {
         Group {
             if locationManager.hasLocationAccess {
-                SearchView(locationManager: locationManager)
+                RouteListView()
+                    .environmentObject(locationManager)
             } else {
-                RequestLocationAccessView(locationManager: locationManager)
+                RequestLocationAccessView(locationManager: LocationManager())
+                    .environmentObject(locationManager)
+                    
             }
         }
+
     }
 }
 

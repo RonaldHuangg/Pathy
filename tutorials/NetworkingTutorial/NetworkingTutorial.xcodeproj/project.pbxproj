@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A3D4D7D2CB67A23009C30D7 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3D4D7C2CB67A23009C30D7 /* test.swift */; };
 		8A8CDFAA2C9B66C1005023A6 /* NetworkingTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CDFA92C9B66C1005023A6 /* NetworkingTutorialApp.swift */; };
 		8A8CDFAE2C9B66C1005023A6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CDFAD2C9B66C1005023A6 /* Item.swift */; };
 		8A8CDFB02C9B66C2005023A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A8CDFAF2C9B66C2005023A6 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A3D4D7C2CB67A23009C30D7 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		8A8CDFA62C9B66C1005023A6 /* NetworkingTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A8CDFA92C9B66C1005023A6 /* NetworkingTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingTutorialApp.swift; sourceTree = "<group>"; };
 		8A8CDFAD2C9B66C1005023A6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				8A8CDFA92C9B66C1005023A6 /* NetworkingTutorialApp.swift */,
 				8A8CDFC02C9B6F23005023A6 /* ContentView.swift */,
 				8A8CDFBC2C9B6773005023A6 /* CreaturesViewModel.swift */,
+				8A3D4D7C2CB67A23009C30D7 /* test.swift */,
 				8A8CDFAD2C9B66C1005023A6 /* Item.swift */,
 				8A8CDFAF2C9B66C2005023A6 /* Assets.xcassets */,
 				8A8CDFB12C9B66C2005023A6 /* NetworkingTutorial.entitlements */,
@@ -148,6 +151,7 @@
 				8A8CDFBD2C9B6773005023A6 /* CreaturesViewModel.swift in Sources */,
 				8A8CDFC12C9B6F23005023A6 /* ContentView.swift in Sources */,
 				8A8CDFAE2C9B66C1005023A6 /* Item.swift in Sources */,
+				8A3D4D7D2CB67A23009C30D7 /* test.swift in Sources */,
 				8A8CDFAA2C9B66C1005023A6 /* NetworkingTutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
